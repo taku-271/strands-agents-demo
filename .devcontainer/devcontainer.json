@@ -1,0 +1,10 @@
+{
+    "name": "Strands Agents Demo Devcontainer",
+    "workspaceFolder": "/workspace",
+    "remoteUser": "bun",
+    "dockerComposeFile": "docker-compose.yaml",
+    "service": "app",
+    "features": {
+         "ghcr.io/devcontainers/features/aws-cli:1.1.2": {}
+    }
+}
